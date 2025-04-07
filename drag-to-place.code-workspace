@@ -3,5 +3,10 @@
         {
             "path": "."
         }
-    ]
+    ],
+    "settings": {
+        "explorer.excludeGitIgnore": false,
+        "Lua.workspace.useGitIgnore": false,
+        "search.useIgnoreFiles": false
+    }
 }
