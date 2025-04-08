@@ -17,6 +17,11 @@
     },
     "Lua.workspace.checkThirdParty": false,
     "Lua.diagnostics.globals": [
-        "FaceCoordinatesAction"
+        "FaceCoordinatesAction",
+        "EquipmentUI",
+        "EquipmentSlot",
+        "EquipmentSuperSlot",
+        "HotbarSlot",
+        "WeaponSlot"
     ]
 }
