@@ -7,6 +7,10 @@
         {
             "name": "Build 42",
             "path": "Contents/mods/DelranDragToPlace/42"
+        },
+        {
+            "name": "Build 41",
+            "path": "Contents/mods/DelranDragToPlace41"
         }
     ],
     "settings": {
@@ -16,8 +20,6 @@
         "Lua.runtime.version": "Lua 5.1",
         "Lua.runtime.path": [
             "?.lua",
-            "?/init.lua",
-            "server/?.lua"
         ],
         "Lua.completion.requireSeparator": "/",
         "Lua.workspace.preloadFileSize": 800,
