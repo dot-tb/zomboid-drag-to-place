@@ -171,10 +171,10 @@ function DelranDragToPlace:PlaceItem()
         self.placeItemCursor.render3DItemXOffset, self.placeItemCursor.render3DItemYOffset,
         self.placeItemCursor.render3DItemZOffset, self.placeItemCursor.render3DItemRot, false));
     -- Clean and stop
-    self.canceled = true;
     ISTimedActionQueue.add(ExecuteCallbackAction:new(self.player, function()
         self:Stop();
     end));
+    self.canceled = true;
 end
 
 ---@param player IsoPlayer
@@ -252,8 +252,6 @@ function DelranDragToPlace.WaitBeforeShowCursorTimer:Reset()
     self.items = nil;
 end
 
-local DragAndDrop = require("InventoryTetris/System/DragAndDrop");
-
 ---@diagnostic disable-next-line: duplicate-set-field
 function ISInventoryPane:onMouseMoveOutside(dx, dy)
     ORIGINAL_ISInventoryPane_onMouseMoveOutside(self, dx, dy);
@@ -266,7 +264,7 @@ function ISInventoryPane:onMouseMoveOutside(dx, dy)
         end
     elseif self.dragging and self.draggedItems and self.draggedItems.items and #self.draggedItems.items == 1 then
         if not DelranDragToPlace.placingItem then
-            DelranDragToPlace:Start(getPlayer(), self.draggedItems, self);
+            DelranDragToPlace:Start(getPlayer(), self.draggedItems.items, self);
         end
     end
 end

@@ -268,7 +268,7 @@ function ISInventoryPane:onMouseMoveOutside(dx, dy)
         end
     elseif self.dragging and self.draggedItems and self.draggedItems.items and #self.draggedItems.items == 1 then
         if not DelranDragToPlace.placingItem then
-            DelranDragToPlace:Start(getPlayer(), self.draggedItems, self);
+            DelranDragToPlace:Start(getPlayer(), self.draggedItems.items, self);
         end
     end
 end
