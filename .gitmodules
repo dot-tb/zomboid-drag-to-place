@@ -1,7 +1,9 @@
-[submodule "Contents/mods/DelranDragToPlace/42/media/lua/shared/DelranDragToPlace/DelranLib"]
-	path = Contents/mods/DelranDragToPlace/42/media/lua/shared/DelranDragToPlace/DelranLib
-	url = https://github.com/dot-tb/zomboid-delran-lib
 [submodule "Contents/mods/DelranDragToPlace41/media/lua/shared/DelranDragToPlace/DelranLib"]
 	path = Contents/mods/DelranDragToPlace41/media/lua/shared/DelranDragToPlace/DelranLib
 	url = https://github.com/dot-tb/zomboid-delran-lib
 	branch = b41
+[submodule "drag-to-place"]
+	path = Contents/mods/DelranDragToPlace/42/media/lua
+	url = git@github.com:dot-tb/zomboid-drag-to-place-src
+[submodule "lua"]
+	branch = main
