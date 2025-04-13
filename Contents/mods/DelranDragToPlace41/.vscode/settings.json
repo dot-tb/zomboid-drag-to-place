@@ -1,5 +1,6 @@
 {
     "Lua.workspace.library": [
         "${addons}/umbrella/module/library",
+        "C:\\Users\\Delran\\Workdir\\Modding\\Zomboid\\zomboid-inventory-tetris\\Contents\\mods\\InventoryTetris\\media\\lua"
     ]
 }
