@@ -2,5 +2,8 @@
     "Lua.workspace.library": [
         "${addons}/umbrella-unstable/module/library",
         "C:\\Users\\Delran\\Workdir\\Modding\\Zomboid\\zomboid-inventory-tetris\\Contents\\mods\\InventoryTetris\\42\\media\\lua"
-    ]
+    ],
+    "Lua.diagnostics.groupFileStatus": {
+        "strong": "Any"
+    }
 }
