@@ -13,6 +13,10 @@
             "path": "Contents/mods/DelranDragToPlace-InventoryTetrisPatch"
         },
         {
+            "name": "Tetris Patch 41",
+            "path": "Contents/mods/DelranDragToPlace41-InventoryTetrisPatch"
+        },
+        {
             "name": "Build 41",
             "path": "Contents/mods/DelranDragToPlace41"
         }
