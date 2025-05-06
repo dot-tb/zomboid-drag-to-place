@@ -7,3 +7,6 @@
 	path = Contents/mods/DelranDragToPlace41/media/lua
 	url = git@github.com:dot-tb/zomboid-drag-to-place-src
 	branch = b41
+[submodule "Contents/mods/DelranDragToPlace-InventoryTetrisPatch"]
+	path = Contents/mods/DelranDragToPlace-InventoryTetrisPatch
+	url = https://github.com/dot-tb/zomboid-drag-to-place-inventory-tetris-patch
