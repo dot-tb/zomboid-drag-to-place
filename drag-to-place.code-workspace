@@ -6,7 +6,11 @@
         },
         {
             "name": "Build 42",
-            "path": "Contents/mods/DelranDragToPlace/42"
+            "path": "Contents/mods/DelranDragToPlace"
+        },
+        {
+            "name": "Tetris Patch 42",
+            "path": "Contents/mods/DelranDragToPlace-InventoryTetrisPatch"
         },
         {
             "name": "Build 41",
